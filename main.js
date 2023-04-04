@@ -14,7 +14,7 @@ function hitungBMI() {
 
     // Menampilkan hasil perhitungan BMI dan kategori BMI pada halaman web
     const result = document.getElementById("result");
-    result.innerHTML = `Your BMI is <strong>${bmi.toFixed(1)}</strong> which means You are <strong>${BMICategory(bmi)}</strong>`;
+    result.innerHTML = `Your BMI is <strong>${bmi.toFixed(1)}</strong> which means You are <strong>${bmiCategory(bmi)}</strong>`;
 }
 
 // Function untuk menentukan kategori BMI berdasarkan nilai BMI
